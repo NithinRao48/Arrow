@@ -1,0 +1,146 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "NUnit3TestAdapter/4.2.1": {
+        "type": "package",
+        "build": {
+          "build/netcoreapp2.1/NUnit3TestAdapter.props": {}
+        }
+      },
+      "Arrow.DeveloperTest/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/Arrow.DeveloperTest.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Arrow.DeveloperTest.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NUnit3TestAdapter/4.2.1": {
+      "sha512": "kgH8VKsrcZZgNGQXRpVCrM7TnNz9li3b/snH+YmnXUNqsaWa1Xw9EQWHpbzq4Li2FbTjTE/E5N5HdLNXzZ8BpQ==",
+      "type": "package",
+      "path": "nunit3testadapter/4.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net35/NUnit3.TestAdapter.dll",
+        "build/net35/NUnit3.TestAdapter.pdb",
+        "build/net35/NUnit3TestAdapter.props",
+        "build/net35/nunit.engine.api.dll",
+        "build/net35/nunit.engine.core.dll",
+        "build/net35/nunit.engine.dll",
+        "build/net35/testcentric.engine.metadata.dll",
+        "build/netcoreapp2.1/NUnit3.TestAdapter.dll",
+        "build/netcoreapp2.1/NUnit3.TestAdapter.pdb",
+        "build/netcoreapp2.1/NUnit3TestAdapter.props",
+        "build/netcoreapp2.1/nunit.engine.api.dll",
+        "build/netcoreapp2.1/nunit.engine.core.dll",
+        "build/netcoreapp2.1/nunit.engine.dll",
+        "build/netcoreapp2.1/testcentric.engine.metadata.dll",
+        "nunit3testadapter.4.2.1.nupkg.sha512",
+        "nunit3testadapter.nuspec"
+      ]
+    },
+    "Arrow.DeveloperTest/1.0.0": {
+      "type": "project",
+      "path": "../Arrow.DeveloperTest/Arrow.DeveloperTest.csproj",
+      "msbuildProject": "../Arrow.DeveloperTest/Arrow.DeveloperTest.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "Arrow.DeveloperTest >= 1.0.0",
+      "NUnit3TestAdapter >= 4.2.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\nsrao\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\nsrao\\OneDrive\\Pictures\\Arrow\\DeveloperTest\\Arrow.DeveloperTest.Runner\\Arrow.DeveloperTest.Runner.csproj",
+      "projectName": "Arrow.DeveloperTest.Runner",
+      "projectPath": "C:\\Users\\nsrao\\OneDrive\\Pictures\\Arrow\\DeveloperTest\\Arrow.DeveloperTest.Runner\\Arrow.DeveloperTest.Runner.csproj",
+      "packagesPath": "C:\\Users\\nsrao\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nsrao\\OneDrive\\Pictures\\Arrow\\DeveloperTest\\Arrow.DeveloperTest.Runner\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\nsrao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
+          "projectReferences": {
+            "C:\\Users\\nsrao\\OneDrive\\Pictures\\Arrow\\DeveloperTest\\Arrow.DeveloperTest\\Arrow.DeveloperTest.csproj": {
+              "projectPath": "C:\\Users\\nsrao\\OneDrive\\Pictures\\Arrow\\DeveloperTest\\Arrow.DeveloperTest\\Arrow.DeveloperTest.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "targetAlias": "netcoreapp3.0",
+        "dependencies": {
+          "NUnit3TestAdapter": {
+            "target": "Package",
+            "version": "[4.2.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.0.1, 3.0.1]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.0.3, 3.0.3]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

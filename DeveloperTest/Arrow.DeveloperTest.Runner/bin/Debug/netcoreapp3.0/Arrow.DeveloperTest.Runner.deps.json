@@ -1,0 +1,45 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Arrow.DeveloperTest.Runner/1.0.0": {
+        "dependencies": {
+          "Arrow.DeveloperTest": "1.0.0",
+          "NUnit3TestAdapter": "4.2.1"
+        },
+        "runtime": {
+          "Arrow.DeveloperTest.Runner.dll": {}
+        }
+      },
+      "NUnit3TestAdapter/4.2.1": {},
+      "Arrow.DeveloperTest/1.0.0": {
+        "runtime": {
+          "Arrow.DeveloperTest.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Arrow.DeveloperTest.Runner/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NUnit3TestAdapter/4.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kgH8VKsrcZZgNGQXRpVCrM7TnNz9li3b/snH+YmnXUNqsaWa1Xw9EQWHpbzq4Li2FbTjTE/E5N5HdLNXzZ8BpQ==",
+      "path": "nunit3testadapter/4.2.1",
+      "hashPath": "nunit3testadapter.4.2.1.nupkg.sha512"
+    },
+    "Arrow.DeveloperTest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

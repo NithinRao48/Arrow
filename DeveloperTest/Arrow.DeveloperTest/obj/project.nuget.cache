@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "GG8xREbuxMz1meRaPZPACaWgbNr3EuS+iW/acXuo1XnUI79CQKHLwVFrUZfGLlAaSrTbF/oVqWgzwm5saLuMKg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nsrao\\OneDrive\\Pictures\\Arrow\\DeveloperTest\\Arrow.DeveloperTest\\Arrow.DeveloperTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nsrao\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\nsrao\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\nsrao\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
